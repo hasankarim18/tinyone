@@ -1,0 +1,315 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	
+}
+
+p {
+	font-size:0.875rem;
+	font-family:'PT Sans', sans-serif;
+	line-height:1.5rem;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'PT Sans', sans-serif;
+}
+
+a,a:hover,a:focus{
+	text-decoration:none;
+}
+
+
+
+
+
+.bg-light {
+    background-color: transparent!important;
+}
+
+.main-header{
+	background:#fcdb00;
+}
+/* main header code goes here */
+
+.main-header nav .navbar-brand {
+
+	
+}
+
+.main-header nav .navbar-brand img {
+	margin-right:1rem;
+}
+
+.main-header nav .navbar-brand{
+	font-size:1.8rem;
+	font-weight:700;
+	display:inline-block;
+	color:#010101;
+	margin-bottom:0rem;
+	
+}
+
+.main-header nav .nav-item {
+	margin-left:4.5rem;
+}
+
+.main-header nav .nav-item .nav-link{
+	font-size:1.375rem;
+	text-transform:capitalize;
+	font-weight:700;
+		color:#010101;
+}
+
+
+/* banner code starts form here */
+.banner .banner-info {
+	margin-top:130px;
+}
+
+.banner .banner-info h1 {
+	margin-bottom:1.2rem;
+	color:#010101;
+	font-weight:700;
+	/* font-size:2rem; */
+}
+.banner .banner-info h5 {
+	margin-bottom:1.2rem;
+	color:#313841;
+	font-size:2rem;
+	font-size:1.2rem;
+}
+.banner .banner-info p {
+	color:#555555;
+	font-size:1rem;
+	margin-bottom:1.2rem;
+}
+
+.banner .banner-info .fa{
+	color:#010101;
+	font-size:2rem;
+	margin-right:2.4rem;
+}
+
+/* main>banner>ipad code goes here */
+.main-header .banner .ipad{
+	margin-top:4.5rem;
+	justify-content: center;
+    display: flex;
+	margin-bottom:104px;
+}
+
+
+.main-header .banner .ipad img {
+	
+}
+
+.carousel-control-prev {
+	justify-content: flex-start;
+}
+
+.carousel-control-next {
+		justify-content: flex-end;
+}
+
+element {
+}
+.carousel-indicators li {
+   
+    width: 15px;
+    height: 15px;
+	border-radius:100%;
+    margin-right: 3px;
+    margin-left: 3px;
+    
+    background-color: #fff;
+
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+
+/* tinyone feature code goes from here */
+.tinyone-feature {
+	margin-top:7rem;
+}
+
+.tinyone-feature .tinyone-feature-heading {
+	text-align:center;
+	width: 100%;
+}
+.tinyone-feature .tinyone-feature-heading h2 {
+	font-size:2rem;
+	font-weight:700;
+	color:#010101;
+	
+}
+.tinyone-feature .tinyone-feature-heading p {
+	
+	font-size:1.2rem;
+	color:#313841;
+}
+
+/* tinyone feature card code goes from here */
+.tinyone-feature .tinyone-feature-card{
+	margin-top:5rem;
+}
+.tinyone-feature .tinyone-feature-card .t-card-item{
+	display:flex;
+	margin-bottom:5rem;
+}
+.tinyone-feature-card .t-card-item .f-icon{
+	overflow:auto;
+	margin-right:2rem;
+}
+.tinyone-feature-card .t-card-item .f-icon .fa{
+	font-size:2.5rem;
+	
+	font-weight:500;
+	
+}
+
+
+.tinyone-feature-card .t-card-item .f-i-info{
+		overflow:auto;
+}
+.tinyone-feature-card .t-card-item .f-i-info h3{
+	color:#010101;
+	font-size:1.3rem;
+	margin-bottom:1rem;
+}
+.tinyone-feature-card .t-card-item .f-i-info p{
+	color:#313841;
+	font-size:1rem;
+}
+
+.tinyone-feature-card .free-d img{
+	width:1.85rem;
+}
+
+/* footer section code goes here */
+
+/* footer upper */
+
+.main-footer {
+	background:black;
+}
+
+.footer-upper{
+	justify-content:center;
+}
+
+.footer-upper-heading {
+	text-align:center;
+	margin-top:5rem;
+}
+.footer-upper-heading h3{
+	color:#fcdb00;
+	margin-bottom:1.7rem;
+	font-size:2rem;
+	font-weight:700;
+}
+.footer-upper-heading p{
+	color:#898989;
+	margin-bottom:2.5rem;
+	font-size:1.1rem;
+	font-weight:500;
+}
+.footer-upper-heading .input-submit{
+	margin-bottom:4rem;
+	width:100%;
+}
+.footer-upper-heading .input-submit input{
+	width:75%;
+	padding:6px 12px;
+}
+.footer-upper-heading .input-submit a{
+	text-transform:uppercase;
+	color:#010101;
+}
+
+.footer-upper-heading .input-submit .btn-link{
+	background:#fcdb00;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+.footer-upper-heading .input-submit .btn-link:hover{
+	background:#fcdb00;
+	text-decoration:none;
+}
+
+/* main footer social share icons */
+.footer-upper-heading .social-share-icon {
+	list-style-type:none;
+	display:flex;
+	justify-content:center;
+}
+.footer-upper-heading .social-share-icon li {
+	margin-right:2rem;
+}
+.footer-upper-heading .social-share-icon li a {
+	
+	font-size:2rem;
+	color:#fcdb00;
+	transition:0.5s ease;	
+	
+}
+.footer-upper-heading .social-share-icon li a:hover {
+	
+	color:#fff;
+	
+	
+}
+
+
+/* .footer-upper-heading .social-share-icon .fa{ */
+	/* font-size:2rem; */
+	/* color:#fcdb00; */
+	/* transition:0.5s ease;	 */
+	/* background-size:contain; */
+/* } */
+
+
+
+
+
+/* footer bottom code goes here */
+
+.footer-bottom {
+	margin-top:7rem;
+}
+
+.footer-bottom .f-b-a {
+	color:#fff;
+}
+.footer-bottom .f-b-a a {
+	color:#fff;
+	transition:0.5s ease;
+}
+.footer-bottom .f-b-a a:hover {
+	color:#fcdb00;
+	text-decoration:none;
+}
+
+.footer-bottom .f-b-a-p{
+	margin-bottom:0rem;
+}
+.footer-bottom .footer-link {
+	
+}
+.footer-bottom .footer-link a {
+	display:block;
+	color:#fff;
+}
+
+.footer-bottom .footer-link a:hover{
+	color:#fcdb00;
+	transition:0.5s ease;
+}
+
+
